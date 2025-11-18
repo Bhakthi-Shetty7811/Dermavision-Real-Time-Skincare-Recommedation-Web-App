@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "backend"
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "images_fc"
+		},
+		{
+			"path": "ML"
+		}
+	]
+}

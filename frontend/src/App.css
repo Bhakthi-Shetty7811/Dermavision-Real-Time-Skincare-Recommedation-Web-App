@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f47e7e;
+  color: #010000;
+}
+
+ h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #0b0000;
+}
+
+/* Basic Styling for Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar Styles (if you have one) */
+.navbar {
+  background: #ff6f61; /* Simple red gradient */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fef6f6;
+}
+
+/* Homepage Specific Styles */
+.homepage-container {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.homepage-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.homepage-container p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* ImageInput Page Styles */
+.imageInput-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.imageInput-container button {
+  font-weight: 700;
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.imageInput-container button:hover {
+  background-color: #ff9a8b;
+}
+
+/* Recommendations Page Styles */
+.Recommendations-container {
+  text-align: center;
+  padding: 40px;
+  font-weight: 600;
+}
+
+.Recommendations-container h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.Recommendations-container p {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+/* Form Page Styles */
+.Form-container {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8b8b8;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Form-container input,
+.Form-container button {
+  font-weight: 600;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.Form-container input:focus,
+.Form-container button:focus {
+  outline: none;
+  border-color: #ff6f61;
+}
+
+.Form-container button {
+  background-color: #ff6f61;
+  color: white;
+  cursor: pointer;
+}
+
+.Form-container button:hover {
+  background-color: #ff9a8b;
+}
+

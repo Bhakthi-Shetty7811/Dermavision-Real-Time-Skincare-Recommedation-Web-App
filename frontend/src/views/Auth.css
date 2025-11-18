@@ -1,0 +1,81 @@
+/* Soft, minimalistic container */
+.auth-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(135deg, #fef6e4, #fae1dd); /* Soft pastel shades */
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(255, 200, 180, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .auth-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(255, 190, 170, 0.5); /* Soft glow effect */
+  }
+  
+  /* Sleek input fields with minimal design */
+  .auth-container input {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 12px auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgba(255, 245, 235, 0.8);
+    color: #5c5c5c;
+    box-shadow: inset 0 2px 5px rgba(255, 190, 170, 0.3);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .auth-container input:focus {
+    border-color: #f4a261; /* Warm peach tone */
+    box-shadow: 0 0 8px rgba(244, 162, 97, 0.6);
+    background: white;
+  }
+  
+  /* Modern button with a warm aesthetic */
+  .auth-container button {
+    padding: 12px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ffb997, #f4a261);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .auth-container button:hover {
+    background: linear-gradient(135deg, #f4a261, #ffb997);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 170, 140, 0.5);
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #e63946;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Soft link styling */
+  .auth-container a {
+    color: #f4a261;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .auth-container a:hover {
+    color: #e76f51;
+    text-decoration: underline;
+  }
+  
+  
