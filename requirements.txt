@@ -1,15 +1,34 @@
+# --- CORE ML + NUMPY ---
 numpy==1.26.3
 pandas==1.5.2
-matplotlib==3.8.2
 scikit-learn==1.3.2
-Flask==1.1.2
+
+# --- VISUALIZATION / IMAGE TOOLS ---
+matplotlib==3.8.2
+Pillow==10.3.0
+
+# --- OPENCV + MEDIAPIPE ---
+opencv-python==4.9.0.80
+mediapipe==0.10.0
+
+# --- FLASK (Your older flask code) ---
+Flask==2.0.3
 Flask-RESTful==0.3.8
+Flask-SocketIO==5.3.2
+eventlet==0.33.0
 MarkupSafe==1.1.1
 itsdangerous==1.1.0
-tensorflow==2.15.0
-opencv-python==4.9.0.80
 Werkzeug==1.0.1
 Jinja2==2.11.2
 click==7.1.2
+
+# --- FASTAPI (main backend) ---
+fastapi==0.110.0
+uvicorn==0.27.0
+
+# --- OTHER ---
+requests==2.31.0
 reparse==3.0
-Pillow
+
+# --- TENSORFLOW (Compatible with Python 3.10) ---
+tensorflow-cpu==2.12.0
